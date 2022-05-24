@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
+	"os"
 )
 
 func main() {
-	name := "Sanz"
+	name := os.Getenv("USERNAME")
 	course := "Studying go"
 
 	fmt.Println("Name and course are set to", name, "and", course)
