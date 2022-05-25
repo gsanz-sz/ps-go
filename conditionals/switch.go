@@ -9,6 +9,7 @@ func main() {
 		fmt.Println("Docker is a containerization engine.")
 	case "Kubernetes":
 		fmt.Println("Kubernetes is a containerization engine.")
+		fallthrough
 	case "Swarm":
 		fmt.Println("Swarm is a containerization engine.")
 	default:
